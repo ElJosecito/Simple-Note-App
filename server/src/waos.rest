@@ -1,0 +1,31 @@
+GET http://localhost:3000/notes
+
+###
+GET http://localhost:3000/notes/1
+
+###
+POST http://localhost:3000/notes/post
+Content-Type: application/json
+
+{
+    "title": "Waos",
+    "description": "eta e otra nota pa proba el id"
+}
+###
+
+PUT http://localhost:3000/notes/update/2
+Content-Type: application/json
+
+{
+
+    "title": "Note 2",
+    "description": "Esta es la nota numero 2 modificada x2"
+}
+
+###
+
+PUT http://localhost:3000/notes/delete/3
+
+###
+PUT http://localhost:3000/notes/restore/5
+
