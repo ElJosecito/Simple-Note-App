@@ -71,17 +71,17 @@ function Hero({ task, Fetching }) {
   return (
     <>
       <section className="flex">
-        <div className="h-screen w-80 fixed bg-[#1e262e] border-r-2 border-[#2e333e]">
+        <div className="h-screen w-56 fixed bg-[#1e262e] border-r-2 border-[#2e333e] md:w-80">
           <div className="font-bold font-sans text-2xl text-white flex justify-start items-center h-16 p-5">
             Uncanny
           </div>
           <div className="flex flex-col items-start p-5 w-full">
-            <button onClick={HandlerControllerDeleted} className="my-7 w-full py-1 px-5 bg-orange-600 flex justify-center items-center text-white text-lg font-mono font-bold rounded-md hover:text-white hover:bg-orange-500 self-end">Deleted</button>
-            <button onClick={HandlerControllerActual} className="w-full py-1 px-5 bg-blue-600 flex justify-center items-center text-white text-lg font-mono font-bold rounded-md hover:text-white hover:bg-blue-500 self-end">No Deleted</button>
+            <button onClick={HandlerControllerDeleted} className="my-7 w-full py-1 px-5 bg-orange-600 flex justify-center items-center text-white text-lg font-mono font-bold rounded-md hover:text-white hover:bg-orange-500 self-end">Borrado</button>
+            <button onClick={HandlerControllerActual} className="w-full py-1 px-5 bg-blue-600 flex justify-center items-center text-white text-lg font-mono font-bold rounded-md hover:text-white hover:bg-blue-500 self-end">Notas</button>
           </div>
         </div>
         {/*  */}
-        <section className="w-full pl-80">
+        <section className="w-full pl-56 md:pl-80">
           <Header
             HandleTitle={HandleTitle}
             HandleDesc={HandleDesc}

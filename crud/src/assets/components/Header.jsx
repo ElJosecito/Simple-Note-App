@@ -3,7 +3,7 @@ import React from "react";
 function Header({ Post, HandleDesc, HandleTitle }) {
   return (
     <>
-      <header className="flex items-center justify-between pr-[21rem] p-5 bg-[#1e2229] w-full fixed border-b-2 border-[#2e333e]">
+      <header className="flex items-center justify-between md:pr-[21rem] pr-[15rem] p-5 bg-[#1e2229] w-full fixed border-b-2 border-[#2e333e]">
         <div className="font-bold font-sans text-2xl text-white">Uncanny</div>
         <div className="flex">
           <label
