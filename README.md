@@ -14,7 +14,7 @@ Esta ventana nos permite crear una nueva nota, podemos ver que posee un titulo, 
 ## Pagina Principal con notas.
 ![](/MySol/PrincipalPageWithNotes.png)
 
-Aqui tenemos la pagina principal pero en esta ocacion con notas creadas, podemos ver que cada nota tiene un boton para editar y otro para borrar.
+Aqui tenemos la pagina principal pero en esta ocasion con notas creadas, podemos ver que cada nota tiene un boton para editar y otro para borrar.
 El boton de editar nos abre una ventana flotante donde podremos editar la nota seleccionada. como podemos ver en la siguiente imagen.
 
 ## Ventana flotante para editar notas.
