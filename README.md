@@ -2,7 +2,7 @@
 
 
 ## Pagina principal.
-![](MySol/pincipalPage.png)
+![](/MySol/pincipalPage.png)
 
 Aqui podemos ver la pagina principal de la aplicacion donde aparecen todos los paises en registrados en la api, esta aplicacion cuenta con varios filtros que estare mostrando mas adelante, esta aplicacion ha sido desarrollada en react.
 
