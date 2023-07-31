@@ -4,25 +4,33 @@
 ## Pagina principal.
 ![](/MySol/principalPage.png)
 
-Aqui podemos ver la pagina principal de la aplicacion donde aparecen todos los paises en registrados en la api, esta aplicacion cuenta con varios filtros que estare mostrando mas adelante, esta aplicacion ha sido desarrollada en react.
+Esta es la pagina principal de la aplicacion donde encontramos los filtros a la derecha para obtener las notas actuales y las notas que han sido borradas, tambien encontramos un boton para crear una nueva nota.
 
-# Filtros:
+## Ventana flotante para crear notas.
+![](/MySol/AddNotePage.png)
 
-## Filtrado por Nombre.
+Esta ventana nos permite crear una nueva nota, podemos ver que posee un titulo, un contenido y un boton para guardar la nota, tambien posee un boton para cerrar la ventana flotante.
+
+## Pagina Principal con notas.
+![](/MySol/PrincipalPageWithNotes.png)
+
+Aqui tenemos la pagina principal pero en esta ocacion con notas creadas, podemos ver que cada nota tiene un boton para editar y otro para borrar.
+El boton de editar nos abre una ventana flotante donde podremos editar la nota seleccionada. como podemos ver en la siguiente imagen.
+
+## Ventana flotante para editar notas.
+![](/MySol/UpdateNotePage.png)
+
+## Ventana principal con notas editadas.
+![](/MySol/NotaActualizada.png)
+
+En esta pagina principal podemos ver la nota que hemos editado.
+
+## Ventana principal con notas borradas.
+![](/MySol/DeletedNotesPage.png)
+
+En esta pagina podemos ver las notas que han sido borradas, podemos ver que cada nota posee un boton para restaurar la nota.
 
 
-Arriba a la izquierda tenemos un input el cual al escribir empieza a filtrar entre todos los paises de la api para encontrar al que se esta buscando.
+## Informacion detallada del desarrollo.
 
-## Filtrado por Region.
-
-
-Arriba a la derecha poseemos opciones las cuales noa ayudan a filtrar los paise de una manera mas general dividiendose en regiones.
-
-## Informacion detallada del pais.
-
-
-Cuando hacemos click en una de las card que contiene la pagina principal se nos redireccionara a una pagina con informacion mas detallada del pais que se ha seleccionado como podemos ver en la imagen anterior.
-
-
-
-Este es un CRUD de notas totalmente completo y funcional, este ha sido desarrollado en el ambiente MERN es decir usando Node, express, React y MongoDB. 
+Este es un CRUD de notas totalmente completo y funcional, este ha sido desarrollado en el ambiente MERN es decir usando Node, express, React y MongoDB. En este podemos crear notas, actualizar, editar y ver las notas borradas y restaurarlas.
