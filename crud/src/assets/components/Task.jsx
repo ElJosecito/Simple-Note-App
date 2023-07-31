@@ -5,13 +5,11 @@ import toast, { Toaster } from "react-hot-toast";
 function Task({ title, desc, id, Fetching }) {
 
   const error = (e) => toast.error(e)
-
   const Succesfull = (e) => toast.success(e)
 
   //Update variables
   const [titleU, setTitleU] = useState();
   const [descU, setDescU] = useState();
-
   //handle title
   const HandleTitleU = (e) => {
     setTitleU(e.target.value);
@@ -22,12 +20,10 @@ function Task({ title, desc, id, Fetching }) {
     setDescU(e.target.value);
     //console.log(e.target.value);
   };
-
   //Handle varId
   const HandleVarId = async () => {
     localStorage.setItem("id", id);
   };
-
   //Update function
   const Update = async (e) => {
     e.preventDefault();
