@@ -2,14 +2,14 @@
 
 
 ## Pagina principal.
-![](/MySol/pincipalPage.png)
+![](./MySol/pincipalPage.png)
 
 Aqui podemos ver la pagina principal de la aplicacion donde aparecen todos los paises en registrados en la api, esta aplicacion cuenta con varios filtros que estare mostrando mas adelante, esta aplicacion ha sido desarrollada en react.
 
 # Filtros:
 
 ## Filtrado por Nombre.
-![](./MySol/filterByName.png)
+
 
 Arriba a la izquierda tenemos un input el cual al escribir empieza a filtrar entre todos los paises de la api para encontrar al que se esta buscando.
 
